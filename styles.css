@@ -335,3 +335,44 @@ body {
   background-color: #3f48d1;
 }
 
+/* Footer Section */
+.footer {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.footer-logo {
+  font-size: 48px;
+  font-weight: 700;
+  color: #4b55f4;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  font-size: 16px;
+  color: #8c8caa;
+  line-height: 1.6;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav li a {
+  text-decoration: none;
+  color: #8c8caa;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-nav li a:hover {
+  color: #4b55f4;
+}
